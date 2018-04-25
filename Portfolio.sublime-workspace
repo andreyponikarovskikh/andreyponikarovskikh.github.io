@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"padding-right"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"f",
+				"flex-start"
+			],
+			[
+				"U",
+				"user-select"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"fi",
+				"fill"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"30px",
+				"30px"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"r",
+				"transparent"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"feature",
+				"feature-item"
+			],
+			[
+				"v",
+				"visually-hidden"
+			],
+			[
+				"main-headr",
+				"main-header-logo"
+			],
+			[
+				"se",
+				"selected-hotel"
+			],
+			[
+				"ho",
+				"hotels-select-form2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css",
+		"/C/Work/HTML/Portfolio"
+	],
+	"file_history":
+	[
+		"/C/Work/HTML/Portfolio/style.css",
+		"/C/Work/HTML/Portfolio/index.html",
+		"/C/Work/HTML/Portfolio/nerds/index.html",
+		"/C/Work/HTML/Portfolio/nerds/catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/barbershop-master/barbershop-master/index.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/barbershop-master/barbershop-master/style/main.css",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/price.html",
+		"/C/Users/Андрей/Documents/GitHub/Portfolio/Barbershop/item.html",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css/style.css",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/inner.html",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/index.html",
+		"/C/Users/Андрей/Documents/GitHub/Портфолио/Nerds/catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/Портфолио/Nerds/CSS/styles.css",
+		"/C/Users/Андрей/Documents/GitHub/Портфолио/Nerds/imdex.html",
+		"/C/Users/Андрей/Documents/GitHub/103121-sedona/103121-index.html",
+		"/C/Users/Андрей/Documents/GitHub/103121-sedona/103121-catalog.html",
+		"/C/Users/Андрей/Documents/GitHub/103121-sedona/103121-style.css",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/inner_.html",
+		"/C/Users/Андрей/Documents/GitHub/Пример 103121-sedona",
+		"/C/Users/Андрей/Documents/GitHub/Пример 103121-sedona-html.html",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css/style_old.css",
+		"/C/Users/Андрей/Documents/GitHub/Пример",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/css/normalize.css",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/Contributing.md",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/.editorconfig",
+		"/C/Users/Андрей/Documents/GitHub/666855-sedona/Readme.md"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Portfolio.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
