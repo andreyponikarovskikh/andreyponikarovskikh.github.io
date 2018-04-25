@@ -10,20 +10,12 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 
-  background-color: #000000;
-  background-image: url("../img/bg.jpg");
+  /*background-color: #000000;*/
+  background-image: url("img/ep_naturalwhite.png");
   background-position: top center;
-  background-repeat: no-repeat;
-}
-
-.inner-page {
-  color: #000000;
-
-  background-color: #f9f6f3;
-  background-image: url("img/pattern-light.jpg");
-  background-position: 0 0;
   background-repeat: repeat;
 }
+
 
 a {
   text-decoration: none;
@@ -86,5 +78,6 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   margin: 0 auto;
   padding: 0 10%;
+  padding-top: 20%;
 }
 
