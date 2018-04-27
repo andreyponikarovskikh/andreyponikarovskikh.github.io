@@ -9,12 +9,17 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 
-  /*background-color: #000000;*/
   background-image: url("img/ep_naturalwhite.png");
   background-position: top center;
   background-repeat: repeat;
 }
 
+header {
+  margin: 0 auto;
+  padding: 2% 10%;
+  text-align: center;
+  color: #000000;  
+}
 
 a {
   text-decoration: none;
@@ -73,13 +78,36 @@ input[type="radio"].visually-hidden {
   background-color: #000000;
 }
 
+* ul{
+  list-style: none;
+}
 
 .container {
   display: flex;
+  max-width: 960px;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
   padding: 0 10%;
-  padding-top: 20%;
 }
 
+.skills {
+  color: grey;
+  padding: 10px 10%;
+  text-align: center;
+}
+
+.skills p {
+  font-size: 14px;
+}
+
+.skills h4 {
+  margin: 15px auto;
+}
+
+.container li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:  center;
+}
