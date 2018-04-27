@@ -105,9 +105,26 @@ input[type="radio"].visually-hidden {
   margin: 15px auto;
 }
 
+.skills a {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
 .container li{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items:  center;
+}
+
+footer {
+  padding: 30px 22%;
+  font-size: 14px;
+}
+
+footer a{
+  position: relative;
+  left: 5px;
+  top:-20px;
 }
