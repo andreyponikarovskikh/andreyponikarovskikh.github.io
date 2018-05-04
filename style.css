@@ -71,6 +71,13 @@ input[type="radio"].visually-hidden {
   background-color: #663d15;
 }
 
+.button-2:hover path,
+.button-2:focus path,
+.button-2:active path{
+  fill: blue;  
+}
+
+
 .button.disabled,
 .button:disabled {
   cursor: default;
