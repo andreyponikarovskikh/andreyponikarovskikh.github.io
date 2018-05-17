@@ -15,10 +15,15 @@ body {
 }
 
 header {
+  display: flex;
+  max-width: 960px;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 auto;
-  padding: 2% 10%;
-  text-align: center;
+  padding: 10px 10%;
   color: #000000;  
+  text-align: center;
+  /*outline: 1px solid blue;*/
 }
 
 a {
@@ -28,6 +33,13 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.photo {
+  border: 7px solid white;
+  /*border-radius: 5px;*/
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  transform: rotate(3deg);
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -61,6 +73,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 
   background-color: #000000;
+  background-clip: padding-box;/* обрезает заливку color до border */
   border: none;
   outline: none;
 }
@@ -68,13 +81,13 @@ input[type="radio"].visually-hidden {
 .button:hover,
 .button:focus,
 .button:active {
-  background-color: #663d15;
+  background-color: rgba(0,0,0,.7); /*#663d15;*/
 }
 
 .button-2:hover path,
 .button-2:focus path,
 .button-2:active path{
-  fill: blue;  
+  fill: blue;
 }
 
 
