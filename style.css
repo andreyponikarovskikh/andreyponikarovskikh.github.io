@@ -167,6 +167,7 @@ footer a{
   line-height: 12px;
   font-weight: 700;
   color: #000000;
+  outline: none;
 }
 
 [data-tooltip] {
