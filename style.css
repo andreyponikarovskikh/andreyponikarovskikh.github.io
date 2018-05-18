@@ -109,6 +109,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   margin: 0 auto;
   padding: 0 10%;
+  outline: none;
 }
 
 .skills {
@@ -129,6 +130,14 @@ input[type="radio"].visually-hidden {
   position: relative;
   top: 10px;
   left: 10px;
+}
+
+.skills span {
+  position: relative;
+  top: -10px;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .container li{
