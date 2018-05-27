@@ -35,10 +35,6 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -84,7 +80,6 @@ img {
   border: 2px solid var(--grey);
 }
 
-/* применяем когда вопрос заменяется на инпут */
 .readonly {
   border: none;
 }
@@ -209,7 +204,7 @@ img {
 .js-visible-button {
   display: block;
   
-  animation: bounce 0.8s;
+  animation: bounce 1s;
 }
 
 .js-input-right {
@@ -220,6 +215,8 @@ img {
 .js-input-wrong {
   color: var(--red);
   border: 2px solid var(--grey);
+
+  animation: shake 0.6s;
 }
 
 

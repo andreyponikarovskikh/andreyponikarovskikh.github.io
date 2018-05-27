@@ -24,7 +24,7 @@ var total;
 let getRandomInteger = max => Math.floor(Math.random() * (max));
 
 
-function renderInitialValues (){
+function getInitialValues (){
 	a = A_MIN + getRandomInteger(RANGE_A);
     sumAB = SUM_AB_MIN + getRandomInteger(RANGE_SUM_AB);
     b = sumAB - a;
@@ -40,21 +40,20 @@ start.addEventListener("click", function (evt) {
     evt.preventDefault();
     firstDenominatorInput.classList.remove("hidden");
     start.classList.add("hidden");
-    renderInitialValues();
+    getInitialValues();
     firstDenominatorInput.focus();
   });
 
 firstDenominatorInput.addEventListener("keydown",function (evt) {
-    console.log (firstDenominatorInput.value);
     if (evt.key == "Enter") {
     	if (firstDenominatorInput.value == a) {
-    		firstDenominatorInput.classList.toggle("js-input-right");
+    		firstDenominatorInput.classList.add("js-input-right");
     		firstDenominatorInput.style.color = "#272727";
     		firstDenominatorInput.style.border = "none";
+    		firstDenominatorInput.setAttribute('readonly', true);
     		firstDenominator.style.backgroundColor = "";
     		secondDenominatorInput.classList.remove("hidden");
     		secondDenominatorInput.focus();
-    		console.log("All right");
     	} else {
     		firstDenominatorInput.classList.add("js-input-wrong");
     		firstDenominator.style.backgroundColor = "#fca749";
@@ -64,14 +63,17 @@ firstDenominatorInput.addEventListener("keydown",function (evt) {
 });
 
 secondDenominatorInput.addEventListener("keydown",function (evt) {
-    console.log (secondDenominatorInput.value);
     if (evt.key == "Enter") {
     	if (secondDenominatorInput.value == b) {
-    		secondDenominatorInput.classList.toggle("js-input-right");
+    		secondDenominatorInput.classList.add("js-input-right");
     		secondDenominatorInput.style.color = "#272727";
     		secondDenominatorInput.style.border = "none";
+    		secondDenominatorInput.setAttribute('readonly', true);
     		secondDenominator.style.backgroundColor = "";
-    		
+    		taskSum.removeAttribute('readonly');
+    		taskSum.classList.remove("readonly");
+    		taskSum.value = "";
+    		taskSum.style.outline = "none";
     		taskSum.focus();
     	} else {
     		secondDenominatorInput.classList.add("js-input-wrong");
@@ -80,6 +82,32 @@ secondDenominatorInput.addEventListener("keydown",function (evt) {
     	}
 	};
 });
+
+taskSum.addEventListener("keydown",function (evt) {
+    // console.log (taskSum.value);
+    if (evt.key == "Enter") {
+    	if (taskSum.value == sumAB) {
+    		taskSum.style.border = "none";
+    		taskSum.setAttribute('readonly', true);
+    		taskSum.style.color = "#272727";
+    		popup.classList.remove("hidden");
+    		popup.classList.add("js-visible-button");
+    		// popup.focus();
+    	} else {
+    		taskSum.classList.add("js-input-wrong");
+    	}
+	};
+});
+
+popup.addEventListener("click", function (evt) {
+    // evt.preventDefault();
+    // popup.classList.add("hidden");
+    // getInitialValues();
+    // firstDenominatorInput.focus();
+    location.reload(); // window.location.reload()
+  });
+
+
 
 
 
