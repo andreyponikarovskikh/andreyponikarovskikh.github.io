@@ -1,42 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Тестовое задание "Ось-2"</title>
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Тестовое задание «Ось-2»</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
- 
-<body>
+<body class="container">	
+  <h2 class="title-block">Сложение однозначных чисел с помощью числовой оси</h2>
+  <div id="numbers">
+  	<span id="slotA"></span> + 
+    <span id="slotB"></span> = 
+  	<span id="question">?</span>
+  </div>
+  <div id="axis">
+  	<img src="img/sprite.png" alt="Числовая ось" width="875" height="83">
+    <svg width="350" height="100">
+        <g transform="translate(0,100)" id="arrowOne">
+          <!-- First arrow -->
+        </g>
+    </svg>
+    <svg width="350" height="100" id="arrowTwoField">
+        <g transform="translate(0,100)" id="arrowTwo">
+          <!-- Second arrow -->
+        </g>
+    </svg>
+    <input type="text" id="inputOne">
+  </div>
+  <button type="button" class="task-repeat hidden" autofocus>Молодец, всё верно! Повторим?</button>
 
-<header>
-</header>
-
-<main>
-  <section class="container">
-    <h2 class="title-block">Сложение однозначных чисел с помощью числовой оси</h2>
-      <div class="task-block">
-        <span class="digit first-denominator">7</span>
-        <span class="sign sign-plus">+</span>
-        <span class="digit second-denominator">4</span>
-        <span class="sign sign-equals">=</span>
-        <input type="text" name="task-sum" class="task-sum readonly" value="?" maxlength="2" readonly>
-      </div>
-
-      <div class="axis-block">
-        <input type="text" name="first-denominator-input" class="first-denominator-input hidden" value="" maxlength="1" >
-        <input type="text" name="second-denominator-input" class="second-denominator-input hidden" value="" maxlength="1">
-        <!-- спрайт вставлен фоном -->
-        <div class="axis-sprite"></div>
-      </div>
-
-      <button type="button" class="task-start" autofocus>Начнём?</button>
-
-      <button type="button" class="task-repeat hidden" autofocus>Молодец, всё верно! Повторим?</button>
-  </section>
-</main>
-
-<script src="js/task.js"></script>
-
+	<script src="js/task.js"></script>
+  
 </body>
 </html>
