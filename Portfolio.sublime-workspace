@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"space-around"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
 				"in",
 				"inputTwo"
 			],
@@ -70,10 +82,6 @@
 			[
 				"o",
 				"outline"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"bor",
@@ -178,10 +186,6 @@
 			[
 				"m",
 				"margin"
-			],
-			[
-				"s",
-				"space-between"
 			],
 			[
 				"back",
@@ -299,6 +303,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5674,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 3821,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -417,8 +439,70 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5313,
+								5313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2520,
+								2520
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Sixteen.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2640.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -455,7 +539,7 @@
 		"cols":
 		[
 			0.0,
-			0.671407185629,
+			0.833083832336,
 			1.0
 		],
 		"rows":
