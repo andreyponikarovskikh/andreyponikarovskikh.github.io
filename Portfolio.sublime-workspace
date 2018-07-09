@@ -307,7 +307,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5674,
+				"buffer_size": 5683,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -439,7 +439,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -448,15 +448,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5674,
+						"buffer_size": 5683,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5313,
-								5313
+								5534,
+								5534
 							]
 						],
 						"settings":
@@ -466,10 +466,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1140.0,
+						"translation.y": 1360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -497,10 +497,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2640.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -571,12 +571,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Work\\HTML\\Уроки\\css-grid\\css-grid.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
