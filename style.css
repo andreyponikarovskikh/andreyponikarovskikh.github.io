@@ -164,6 +164,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 30px 20px;
+  flex-wrap: wrap;
   font-size: 14px;
   max-width: 960px;
   margin: 0 auto;
