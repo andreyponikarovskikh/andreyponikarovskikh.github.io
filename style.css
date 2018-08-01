@@ -184,7 +184,17 @@ footer a:active{
   color: #fff;
 }
 
+.htmlacademy__logo{
+  position: relative;
+  top: 3%;
+  padding-left: -2%;
+}
 
+.htmlacademy__logo:hover path,
+.htmlacademy__logo:focus path,
+.htmlacademy__logo:active path{
+  fill: #fff;
+}
 
 /*    делаю tooltips     */
 
@@ -258,7 +268,7 @@ footer a:active{
 }
 
 
-/*---------------------------------------*/
+/*----------------Key Skills-----------------------*/
 .keySkills {
   max-width: 960px;
   margin: 0 auto;
@@ -324,25 +334,80 @@ footer a:active{
   transform: rotateY(360deg);
 }
 
+/*--------------portfolio----------------*/
 
-.projects {
+.sites{
   color: grey;
-  padding: 20px 3%;
   text-align: center;
 }
 
-.projects__header{
+.sites__wrapper{
+  /*display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-gap:  35px 20px;
+  max-width: 960px;
+  margin: 0 3%;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.sites__header{
   padding-top: 20px;
 }
 
-.htmlacademy__logo{
+.sites__item{
   position: relative;
-  top: 3%;
-  padding-left: -2%;
+  min-width: 360px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 25px;
 }
 
-.htmlacademy__logo:hover path,
-.htmlacademy__logo:focus path,
-.htmlacademy__logo:active path{
-  fill: #fff;
+.sites__item1{
+  background-image: url("img/torty.JPG");
 }
+
+.sites__item2{
+  background-image: url('img/pink.jpg');
+}
+
+.sites__item3{
+  background-image: url('img/nerds.jpg');
+}
+
+.sites__item4{
+  background-image: url('img/sedona.jpg');
+}
+
+.sites__itemRef{
+  display: block;
+  position: absolute;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  outline:  1px solid blue;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: #BDBDBD;
+}
+
+.sites__itemRef:hover {
+ opacity: .7;
+}
+
+.sites__itemRef:hover ~.sites__item{
+ top: -10px;
+}
+
+.sites__itemTxt{
+  color: #000;
+  padding-top: 34%;
+}
+
+
