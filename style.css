@@ -171,7 +171,6 @@ footer {
   background-color: #607D8B;
 }
 
-
 footer a{
   position: relative;
   left: 5px;
@@ -303,6 +302,7 @@ footer a:active{
   backface-visibility: hidden;
   border-radius: 10px;
   padding-top: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .keySkills__cardFront{
@@ -365,6 +365,7 @@ footer a:active{
   overflow: hidden;
   border-radius: 15px;
   margin-bottom: 25px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 .sites__item1{
