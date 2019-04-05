@@ -24,6 +24,10 @@ body {
   min-width: 320px;
 }
 
+.keySkills__cardBackText a:hover {
+  text-decoration: underline;
+}
+
 header {
   display: flex;
   max-width: 960px;
@@ -339,6 +343,7 @@ footer a:active{
 .sites{
   color: grey;
   text-align: center;
+  font-size: 18px;
 }
 
 .sites__wrapper{
@@ -366,21 +371,44 @@ footer a:active{
   border-radius: 15px;
   margin-bottom: 25px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  background-size: cover;
 }
 
 .sites__item1{
-  background-image: url("img/torty.JPG");
+  background-image: url("img/junior.png");
 }
 
 .sites__item2{
-  background-image: url('img/pink.jpg');
+  background-image: url("img/klassica.png");
 }
 
 .sites__item3{
+  background-image: url("img/der-mira.png");
+}
+.sites__item4{
+  background-image: url("img/24-pet.png");
+}
+.sites__item5{
+  background-image: url("img/miraterm.png");
+}
+
+.sites__item6{
+  background-image: url("img/gpn-trade.png");
+}
+
+.sites__item7{
+  background-image: url("img/torty.JPG");
+}
+
+.sites__item8{
+  background-image: url('img/pink.jpg');
+}
+
+.sites__item9{
   background-image: url('img/nerds1.jpg');
 }
 
-.sites__item4{
+.sites__item10{
   background-image: url('img/sedona.jpg');
 }
 
@@ -395,11 +423,11 @@ footer a:active{
   outline:  1px solid blue;
   opacity: 0;
   transition: all 0.3s ease-in-out;
-  background-color: #BDBDBD;
+  background-color: #494949;
 }
 
 .sites__itemRef:hover {
- opacity: .7;
+ opacity: .8;
 }
 
 .sites__itemRef:hover ~.sites__item{
@@ -407,8 +435,35 @@ footer a:active{
 }
 
 .sites__itemTxt{
-  color: #000;
-  padding-top: 34%;
+  color: #fff;
+  padding-top: 25%;
 }
 
+.bitrix-certificate:hover {
+  opacity: 0.7;
+}
 
+.sites__subheader{
+  text-transform: lowercase;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.keyCompetition{
+  color: #757575;
+  text-transform: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.keyCompetition ul{
+  list-style: square;
+}
+
+.keyCompetition h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
