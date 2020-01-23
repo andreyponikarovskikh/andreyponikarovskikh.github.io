@@ -6,4 +6,9 @@ $(function(){
         dotsClass: 'header-dots',
         autoplay: 1000,
     });
+    $('.menu__btn').on('click',function(){
+        $('.menu__list').slideToggle();
+    });
+
 });
+

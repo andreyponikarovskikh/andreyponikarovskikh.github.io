@@ -73,8 +73,6 @@
      padding-top: 111px;
  }
 
- .header-slider__item {}
-
  .header-slider__item-conent {
      display: flex;
      justify-content: space-between;
@@ -226,14 +224,13 @@
      margin: 12px 0;
  }
 
- .advantages-box__img {}
-
  .advantages-box--right .advantages-box__img {
      order: -1;
  }
+
  .advantages-box--right .advantages-box__info {
-    background-image: url(/images/title-bg-2.svg);
-    background-position: 22px 130px;
+     background-image: url(/images/title-bg-2.svg);
+     background-position: 22px 130px;
  }
 
  .reviews {
@@ -242,73 +239,306 @@
      background-position: top center;
      background-size: cover;
      padding: 38px 0 82px;
-}
-.reviews__title{
-    color: #ffffff;
-    margin: 0 auto 48px;
-    max-width: 384px;
-    text-align: center;
-}
-.reviews__items {
-    display: flex;
-    justify-content: space-around;
-    width: 940px;
-    margin: 0 auto;
-    padding: 0 0;
-}
-.reviews__item {
-    width: 250px; 
-    border-radius: 5px;
-    /* background-color: #fff; */
-    /* opacity: 0.2; */
-    background-color: rgba(255,255,255,0.2); /* в таком случае прозрачность только к нашему элементу, если через opacity то применится для всех вложенных */
-    padding: 35px 20px;
-    color: #ffffff;
-}
-.reviews__item-head {
-    display: flex;
-    margin-bottom: 13px;
-}
-.reviews__item-head img{
-    border-radius: 50%;
-    margin-right: 20px;
-}
+ }
 
-.reviews__item-name {
-    font-weight: 600;
-}
-.reviews__item-position {
-    opacity: 0.5;
-}
-.reviews__item-text {
-    text-align: center;
-    padding-top: 39px;
-    position: relative;
-}
-.reviews__item-text::before {
-    position: absolute;
-    content: "“";
-    font-size: 40px;
-    line-height: 55px;
-    font-weight: 700;
-    top: 0;
-    left: 0;
-    right: 0;
-    /* спозиционировали по центру - сделали left 0 и right 0 одновременно */
-}
+ .reviews__title {
+     color: #ffffff;
+     margin: 0 auto 48px;
+     max-width: 384px;
+     text-align: center;
+ }
 
-.footer__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 61px;
-    color: #272727;
-    padding: 0 40px;
-}
-.footer__links a+a{
-    margin-left: 20px;
-}
+ .reviews__items {
+     display: flex;
+     justify-content: space-around;
+     max-width: 940px;
+     margin: 0 auto;
+     padding: 0 0;
+ }
 
-.footer__links a:hover{
-    font-weight: 600;
-}
+ .reviews__item {
+     width: 250px;
+     border-radius: 5px;
+     /* background-color: #fff; */
+     /* opacity: 0.2; */
+     background-color: rgba(255, 255, 255, 0.2);
+     /* в таком случае прозрачность только к нашему элементу, если через opacity то применится для всех вложенных */
+     padding: 35px 20px;
+     color: #ffffff;
+ }
+
+ .reviews__item-head {
+     display: flex;
+     margin-bottom: 13px;
+ }
+
+ .reviews__item-head img {
+     border-radius: 50%;
+     margin-right: 20px;
+ }
+
+ .reviews__item-name {
+     font-weight: 600;
+ }
+
+ .reviews__item-position {
+     opacity: 0.5;
+ }
+
+ .reviews__item-text {
+     text-align: center;
+     padding-top: 39px;
+     position: relative;
+ }
+
+ .reviews__item-text::before {
+     position: absolute;
+     content: "“";
+     font-size: 40px;
+     line-height: 55px;
+     font-weight: 700;
+     top: 0;
+     left: 0;
+     right: 0;
+     /* спозиционировали по центру - сделали left 0 и right 0 одновременно */
+ }
+
+ .footer__inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 61px;
+     color: #272727;
+     padding: 0 40px;
+ }
+
+ .footer__links a+a {
+     margin-left: 20px;
+ }
+
+ .footer__links a:hover {
+     font-weight: 600;
+ }
+
+ @media (max-width: 1190px) {
+     .header-slider__item-images {
+         margin: 50px 20px 0 0;
+     }
+
+     .header-slider__item-images img {
+         width: 80%;
+     }
+
+     .header-slider__item-info {
+         padding: 50px 0;
+     }
+
+     .header-slider {
+         padding-top: 25px;
+     }
+
+     .specialised {
+         background-size: 70px;
+     }
+
+     .advantages {
+         background-image: none;
+     }
+
+     .advantages-box__img {
+         text-align: center;
+     }
+
+     .advantages-box__img img {
+         width: 75%;
+     }
+
+     .advantages-box__title {
+         padding: 20px 0 10px 10px;
+     }
+ }
+
+ @media (max-width: 924px) {
+     .header__top {
+         flex-wrap: wrap;
+     }
+
+     .header-btn {
+         width: 100%;
+         text-align: right;
+     }
+
+     .login {
+         margin-right: 20px;
+     }
+
+     .header-slider__item-images {
+         display: none;
+     }
+
+     .specialised {
+         background-image: none;
+         padding: 20px 0 40px;
+     }
+
+     .specialised__title {
+         margin-bottom: 40px;
+     }
+
+     .specialised__items {
+         flex-wrap: wrap;
+         justify-content: space-around;
+     }
+
+     .specialised__item {
+         width: 50%;
+     }
+
+     .advantages-box {
+         flex-wrap: wrap;
+         justify-content: space-around;
+         padding-bottom: 36px;
+     }
+
+     .advantages-box--right .advantages-box__img {
+         order: 1;
+     }
+
+     .reviews {
+         padding: 30px 0 30px;
+     }
+
+     .reviews__items {
+         flex-wrap: wrap;
+         justify-content: space-around;
+         max-width: 900px;
+     }
+
+     .reviews__item {
+         margin: 15px 0;
+     }
+
+     .reviews__title {
+         margin: 0 auto 20px;
+     }
+
+ }
+
+ @media (max-width: 570px) {
+     .menu__list {
+         display: none;
+         position: absolute;
+         top: 120px;
+         left: 0;
+         text-align: center;
+         width: 100%;
+         background-color: #1a50a8;
+         z-index: 5;
+         /* чтобы меню открывалось сверху слайдера */
+     }
+
+     .menu__list li+li {
+         padding-left: 0;
+     }
+
+     .menu__list a {
+         display: block;
+         padding: 10px 0;
+     }
+
+     .menu__btn {
+         width: 30px;
+         height: 20px;
+         position: relative;
+         /* overflow: hidden; */
+     }
+
+     .menu__btn span {
+         position: absolute;
+         width: 100%;
+         height: 2px;
+         background-color: #fff;
+         top: 9px;
+         transition: all 1s;
+     }
+
+     .menu__btn::after,
+     .menu__btn::before {
+         content: "";
+         width: 100%;
+         height: 2px;
+         background-color: #fff;
+         position: absolute;
+     }
+
+     .menu__btn::after {
+         top: 0;
+     }
+
+     .menu__btn::before {
+         bottom: 0;
+     }
+
+     .menu__btn:hover {
+         cursor: pointer;
+     }
+
+     .menu__btn:hover span {
+         transform: translateX(-8px);
+     }
+
+     .menu__btn:hover ::after {
+         width: 50%;
+     }
+
+     .header-dots {
+         transform: translateY(-50%);
+     }
+
+     .header {
+         min-height: 580px;
+     }
+
+     .header-slider__description {
+         margin-bottom: 20px;
+         font-size: 20px;
+         line-height: 35px;
+     }
+
+     .header-slider__title {
+         font-size: 35px;
+         line-height: 40px;
+         margin-bottom: 10px;
+     }
+
+     .header-slider__item-info {
+         padding: 10px 30px 10px 0;
+     }
+
+     .specialised__item {
+         width: 80%;
+     }
+
+     .advantages-box__title {
+         font-size: 30px;
+         line-height: 35px;
+     }
+
+     .footer__inner {
+         flex-wrap: wrap;
+         justify-content: space-around;
+     }
+
+     .footer__copyright {
+         margin-bottom: 15px;
+     }
+
+ }
+
+
+ /* метод SlideToggle меняет display:none на display:block инлайново. Этот запрос нужен, чтобы вернуть назад flex, и чтобы перебить инлайновый стиль делаем important */
+ @media (min-width: 570px) {
+     .menu__list {
+         display: flex !important;
+     }
+ }
