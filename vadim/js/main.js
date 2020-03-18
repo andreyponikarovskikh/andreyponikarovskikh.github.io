@@ -41,3 +41,13 @@ $(window).scroll(function(){
   return false;
   });		 
   });
+
+
+  $(document).ready(function() {
+		$(".fancybox").fancybox({
+      loop: true,
+      transitionEffect: "slide",
+    
+    });
+  });
+  
