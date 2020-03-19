@@ -2,15 +2,12 @@ $(function(){
     $('.slider').slick({
         arrows: false,
         // vertical: true,
-        // dots: true,
-        dotsClass: 'products-slider-dots',
+        dots: true,
+        dotsClass: 'slider__dots',
         autoplay: 300,
         fade: true,
         cssEase: 'ease-in-out',
     });
-    // $('.menu__btn').on('click',function(){
-    //     $('.menu__list').slideToggle();
-    // });
 
 });
 
