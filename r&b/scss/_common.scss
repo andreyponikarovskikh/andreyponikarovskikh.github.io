@@ -1,7 +1,6 @@
 body {
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
-    font-family: 'Bebas', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -33,7 +32,7 @@ a {
     border: 0;
 }
 
-// @font-face {
-//     font-family: 'Bebas';
-//     src: url(../fonts/bebas.ttf);
-// }
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}

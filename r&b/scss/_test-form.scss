@@ -26,12 +26,13 @@
     }
 }
 
+
 .license-plan {
 
     &__description {
         position: relative;
-        font-family: Bebas;
-        font-size: 20px;
+        font-family: Bebas Neue;
+        font-size: 26px;
         font-weight: 300;
         margin-left: 24px;
         padding-left: 51px;
@@ -131,8 +132,8 @@
 
 .total-cost {
     position: relative;
-    font-family: Bebas;
-    font-size: 22px;
+    font-family: Bebas Neue;
+    font-size: 27px;
     margin-top: 35px;
 
     &__amount {
@@ -147,8 +148,8 @@
     &::after {
         content: "US";
         position: absolute;
-        font-size: 14px;
-        top: -2px;
+        font-size: 16px;
+        top: -3px;
         color: #3388a8;
     }
 
