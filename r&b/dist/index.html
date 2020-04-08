@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test R&B Alpha Group</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="license-form" action="">
+            <div class="radio-buttons">
+                <div class="radio-buttons__item">
+                    <input type="radio" name="license-plan" id="lp-1"  class="license-plan__input visually-hidden" value="13">
+                    <label for="lp-1" class="license-plan__description">license plan #1</label>
+                    <span class="license-plan__cost">$13 per license</span>
+                </div>
+                <div class="radio-buttons__item">
+                    <input type="radio" name="license-plan" id="lp-2" class="license-plan__input visually-hidden" value="22">
+                    <label for="lp-2" class="license-plan__description">license plan #2</label>
+                    <span class="license-plan__cost">$22 per license</span>
+                </div>
+                <div class="radio-buttons__item radio-buttons__item--checked">
+                    <input type="radio" name="license-plan" id="lp-3"  class="license-plan__input visually-hidden" value="34" checked>
+                    <label for="lp-3" class="license-plan__description">license plan #3</label>
+                    <span class="license-plan__cost">$34 per license</span>
+                </div>
+            </div>
+
+            <div class="qty-selector">
+                <span class="qty-selector__text">Number of licenses:</span>
+                <select name="license-qty" id="license-qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10" selected>10</option>
+                </select>
+            </div>
+
+            <div class="total-cost">TOTAL: <span class='total-cost__amount'>340</span></div>
+
+            <div class="form-btn">
+                <a class="form-btn__buy" href="#">buy now</a>
+            </div>
+
+            <div class="selected-plan">Selected plan: #3</div>
+
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

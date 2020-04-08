@@ -1,0 +1,183 @@
+.license-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    min-width: 564px;
+    margin: 0px auto;
+    background-color: #f8f8f8;
+    border: 12px solid #ebebeb;
+    text-align: center;
+}
+
+.radio-buttons {
+    margin: 19px 18px 11px;
+
+    &__item {
+        display: flex;
+        padding: 22px 0;
+        border: 1px solid #f8f8f8;
+
+        &--checked {
+            border: 1px solid #b8d7e2;
+            background-color: #ebf4f7;
+        }
+    }
+}
+
+.license-plan {
+
+    &__description {
+        position: relative;
+        font-family: Bebas;
+        font-size: 20px;
+        font-weight: 300;
+        margin-left: 24px;
+        padding-left: 51px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            width: 32px;
+            height: 32px;
+            background-color: #fbfbfb;
+            border: 5px solid #dadada;
+            border-radius: 50%;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        & input[type='radio'] {
+            cursor: pointer;
+            background-color: #f8f8f8;
+            width: 18px;
+            height: 18px;
+            margin: 0 28px;
+        }
+    }
+
+    &__cost {
+        margin-left: auto;
+        margin-right: 17px;
+        letter-spacing: 1px;
+    }
+
+    &__input:checked+label::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 12px;
+        height: 12px;
+        background-color: #0294bf;
+        border-radius: 50%;
+    }
+
+    &__input:checked+label::before {
+        border: 5px solid #34648e;
+    }
+}
+
+.qty-selector {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    color: #000;
+    text-align: left;
+    margin: 10px 18px;
+    padding: 31px 0;
+
+    &__text {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: 24%;
+    }
+
+    & select {
+        font-family: 'Roboto Condensed', sans-serif;
+        display: inline-block;
+        border-color: #8dafe6;
+        border-radius: 2px;
+        padding: 4px 27px 4px 0px;
+        background-color: #fff;
+    }
+
+    &::before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #cccccc;
+        position: absolute;
+        bottom: 0;
+    }
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #cccccc;
+        position: absolute;
+        top: 0;
+    }
+
+}
+
+.total-cost {
+    position: relative;
+    font-family: Bebas;
+    font-size: 22px;
+    margin-top: 35px;
+
+    &__amount {
+        color: #3388a8;
+
+        &::before {
+            content: "$";
+            color: #3388a8;
+        }
+    }
+
+    &::after {
+        content: "US";
+        position: absolute;
+        font-size: 14px;
+        top: -2px;
+        color: #3388a8;
+    }
+
+}
+
+.form-btn {
+    margin-top: 30px;
+
+    &__buy {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #33a845;
+        font-size: 14px;
+        padding: 16px 62px;
+        border-radius: 30px;
+        transition: 500ms;
+
+        &:hover {
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.35);
+        }
+    }
+
+}
+
+.selected-plan {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #3388a8;
+    margin-top: 56px;
+    margin-bottom: 44px;
+    padding-left: 13px;
+}

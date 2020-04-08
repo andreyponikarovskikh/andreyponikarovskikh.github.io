@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #fffefd;
+    color: #787878;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-height: 100vh;
+}
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/bebas.ttf);
+}
